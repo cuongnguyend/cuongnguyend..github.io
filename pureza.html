@@ -72,19 +72,20 @@
         </form>
     </div>
     <!-- form login -->
-    <header>
-        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <!-- header -->
+
+        <nav class="navbar  navbar-expand-md navbar-light bg-light sticky-top" data-toggle="sticky-onscroll">
             <div class="container">
                 <a class="navbar-branch" href="#">
                     <img src="img/pureza.png" height="100">
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar navbar-expand-sm bg-light navbar-light collsape" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Home</a>
+                            <a class="nav-link active" href="pureza.html">Home</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
@@ -95,7 +96,7 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Menu</a>
+                            <a class="nav-link" href="menu.html">Menu</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown"
@@ -142,7 +143,7 @@
             </div>
 
         </nav>
-    </header>
+        <!-- header -->
     <div id="slides" class="carousel slide" data-ride="carousel">
         <ul class="carousel-indicators">
             <li data-target="#slides" data-slide-to="0" class="active"></li>
@@ -201,8 +202,10 @@
             <button type="button" class="btn btn-outline-success"><a href="#"> MAKE A RESERVATION</a></button>
         </div>
     </div>
+
+    <!-- experience -->
     <div class="experience">
-        <img src="img/pngtree-coffee-hot-drink-afternoon-tea-banner-background-image_181987.jpg">
+        <!-- <img src="img/pngtree-coffee-hot-drink-afternoon-tea-banner-background-image_181987.jpg"> -->
         <div class="contain">
             <img src="img/slider_2_el_2.png" alt="">
             <div class="text">
@@ -215,6 +218,8 @@
             </div>
         </div>
     </div>
+    <!-- experience -->
+
     <div class="coffee_menu">
         <div class="container">
             <h2>COFFEE MENU</h2>
@@ -229,6 +234,7 @@
                 <a href="#"><img src="img/services_1.png" alt="">
                 </a>
                 <h3><a href="#">Corretto</a></h3>
+                <i class="ionicons ion-coffee" style="font-size: 30px; color: white; z-index: 999999999;"></i>
             </div>
             <div class="col-md">
                 <a href="#"><img src="img/services_2.png" alt=""></a>
@@ -322,6 +328,75 @@
             </div>
         </div>
     </div>
+    <div class="sc_parallac">
+        <img src="img/coffee-pot.png" alt="">
+    </div>
+    <div class="container read_more">
+        <h2>MOST READ ARTICLES</h2>
+        <div class="row">
+            <div class="col-md">
+                <div class="info_back">
+                    <div class="post_cat">
+                        <a href="#">cooking</a>
+                    </div>
+                    <h4 class="post_title"><a href="#"> Trend Spotting:<br>French Tart</a></h4>
+                    <div class="post_date">Posted May 17, 2020</div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="info_back">
+                    <div class="post_cat">
+                        <a href="#">cooking</a>
+                    </div>
+                    <h4 class="post_title"><a href="#"> Secret of Making<br>Smoked Port</a></h4>
+                    <div class="post_date">Posted May 17, 2020</div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="info_back">
+                    <div class="post_cat">
+                        <a href="#">cooking</a>
+                    </div>
+                    <h4 class="post_title"><a href="#"> Life is a <br>Combination</a></h4>
+                    <div class="post_date">Posted May 17, 2020</div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="info_back">
+                    <div class="post_cat">
+                        <a href="#">cooking</a>
+                    </div>
+                    <h4 class="post_title"><a href="#"> Amazing Dinning<br>Rooms</a></h4>
+                    <div class="post_date">Posted May 17, 2020</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class=" footer">
+        <div class="container">
+            <div class="footer_logo"><img src="img/pureza.png" alt="" style="object-fit: contain; width: 100px;"></div>
+            <div class="about_us">Morbi sed justo felis. Phasellus condimentum ornare maximus. Nulla convallis tortor
+                pellentesque tortor vulputate, eget bibendum nibh interdum. </div>
+            <div class="container">
+                <address class="address_right">Phone: <a href="tel:888-456-7890">888-456-7890</a><br>Fax: 889-098-7654
+                </address>
+                <address class="address_left">Chicago, IL 60606<br>123, New Lenox</address>
+            </div>
+            <div class="social">
+                <div class="social_item"><a href="#"><i class="fab fa-twitter"></i></a></div>
+                <div class="social_item"><a href="#"><i class="fab fa-facebook"></i></a></div>
+                <div class="social_item"><a href="#"><i class="fab fa-google-plus-g"></i></a></div>
+                <div class="social_item"><a href="#"><i class="fab fa-instagram"></i></a></div>
+            </div>
+            <div class="copyright_text">
+                <a href="http://themerex.net">ThemeRex</a>
+                © 2020 All Rights Reserved
+                <a href="http://themerex.net/terms-of-service/">Terms of Use</a>
+                and
+                <a href="/privacy-policy/">Privacy Policy</a></div>
+        </div>
+
+    </footer>
 </body>
 <script type="text/javascript" src="pureza.js"></script>
 

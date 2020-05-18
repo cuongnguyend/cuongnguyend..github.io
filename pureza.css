@@ -1,5 +1,9 @@
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 /* backtoptop */
-
 #toTopBtn {
     position: fixed;
     bottom: 26px;
@@ -379,28 +383,32 @@ input[type=text], input[type=password]{
 /* experince */
 .experience{
     width: 100% !important;
-    position: relative;
-    height: 700px !important;
+    /* position: relative; */
+    height: 1000px !important;
     clear: both;
     object-fit: contain;
+    background-image: url(img/cup_pen_notebook_141235_3840x2160.jpg);
+    
+    background-repeat: no-repeat;
 }
 .experience img{
-    position: absolute;
+    /* position: absolute;
     object-fit: contain;
-    width: 100%;
+    width: 100%; */
 }
 .experience .contain{
-    position: absolute;
+    /* position: absolute; */
+    /* padding-left: 600px; */
 }
 .experience .contain img{
-    height: 650px !important;
-    width: 650px !important;
+    /* height: 650px !important;
+    width: 650px !important; */
     padding-left: 100px;
     object-fit: contain;
 }
 .experience .contain .text{
-    padding-left: 800px;
-    padding-top: 150px;
+    /* padding-left: 500px; */
+    
 }
 .experience .contain .text h4{
     font-size: 100px;
@@ -491,7 +499,7 @@ input[type=text], input[type=password]{
     position: relative;
 }
 .slide2 .carousel-item{
-    background: black;
+    background: #453e3c;
     width: 100%;
     height: 600px;
 }
@@ -524,4 +532,154 @@ input[type=text], input[type=password]{
     color:#ecb881 ;
 }
 /* slide2 */
+/* sc_paralllac  */
+.sc_parallac{
+    background-image: url("img/bg_home_alter.jpg");
+    position: relative;
+    overflow: hidden;
+    background-position: 50% -168px;
+    width: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.sc_parallac img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+    padding: 70px 0;
+    
+}
+/* sc_paralllac  */
 
+
+/* readmore */
+.read_more{
+    text-align: center;
+    padding: 70px 0;
+}
+.read_more h2 {
+    font-family: Droid Serif;
+    color: #453e3c;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+.read_more .info_back .post_cat a{
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    color: #ecb881;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+.read_more .info_back .post_cat a:hover{
+    color: #808080;
+}
+.read_more .post_date {
+    font-size: 13px;
+    font-weight: 400;
+    color: #a6a19f;
+}
+.read_more .info_back h4 a{
+    color: black;
+    text-decoration: none;
+}
+.read_more .info_back h4 a:hover{
+    color: green;
+}
+
+/* readmore */
+
+/* footer */
+footer{
+    background: rgb(31, 31, 31);
+    text-align: center;
+}
+footer .container{
+    padding: 50px 0;
+}
+footer .about_us{
+    font-size: 18px;
+    color: rgb(167, 167, 167);
+    line-height: 1.4em;
+    padding: 40px;
+}
+
+.address_left {
+    width: 48%;
+    text-align: right;
+    float: left;
+    color: white;
+}
+.address_right {
+    width: 48%;
+    text-align: left;
+    float: right;
+    color: white;
+}
+.social{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+.social_item{
+    padding: 20px;
+    font-size: 30px;
+    
+}
+.social_item a i{
+    color:#808080;
+}
+.social_item a i:hover{
+    color: #ecb881;
+}
+.copyright_text{
+    color: darkgray;
+}
+.copyright_text a{
+    text-decoration: none;
+    color: white;
+}
+/* footer */
+
+/* page_menu */
+.top_panel_title_inner{
+    background-image: url(img/bg_menu.png);
+    background-position: center center;
+    background-size: cover;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+.content_wrap{
+    width: 100%;
+    margin: 0 auto;
+}
+.content_wrap .page_title{
+    padding: 80px 0 10px 0;
+    letter-spacing: 10px;
+}
+.top_panel_title_inner .breadcrumbs{
+    padding-bottom: 80px;
+    color: gray;
+}
+.top_panel_title_inner .breadcrumbs a{
+    text-decoration: none;
+    color: gray;
+}
+.top_panel_title_inner .breadcrumbs a:hover{
+    color: green;
+}
+.menu_page_content{
+    width: 100%;
+}
+.menu_page_content .container .menu_title{
+    text-align: center;
+    padding: 50px;
+    font-family: cursive;
+}
+.menu_page_content .container .menu_title p{
+    padding-top: 30px;
+    color: #a6a19f;
+}
+/* page_menu */
