@@ -45,6 +45,7 @@
             <p style="padding-bottom: 20px;"><input type="checkbox" checked="checked" style="font-size: 20px;">Remember me
             </p>
             <div class="clearfix">
+                <a href="">Do not have an account</a>
                 <button type="button" class="cancel" onclick="document.getElementById('sign_up').style.display = 'none'">Cancel</button>
                 <button type="submit" class="sign">Sign Up</button>
             </div>
@@ -62,6 +63,8 @@
                 <p><strong> Password</strong></p>
                 <input type="password" placeholder="Enter Password">
                 <button type="submit">Login</button>
+                <button type="button"><a href="javascript:void(0)" class="login1 button_form nav-link"
+                    onclick="document.getElementById('sign_up').style.display = 'block' ,document.getElementById('form').style.display = 'none'">SignUp</a></button>
                 <label>
                 <input type="checkbox" checked="checked" name="remember"> Remember me
             </label>
@@ -71,7 +74,7 @@
     <nav class="navbar  navbar-expand-md navbar-light bg-light sticky-top" data-toggle="sticky-onscroll">
         <div class="container">
             <a class="navbar-branch" href="#">
-                <img src="img/pureza.png" height="100">
+                <img src="img/logo.png" width="100px">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -122,9 +125,9 @@
                     <li class="nav-item">
                         <a href="javascript:void(0)" class="login1 button_form nav-link" onclick="document.getElementById('form').style.display = 'block'">Login </a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a href="javascript:void(0)" class="login1 button_form nav-link" onclick="document.getElementById('sign_up').style.display = 'block'">Sign Up</a>
-                    </li>
+                    </li> -->
 
                 </ul>
             </div>
