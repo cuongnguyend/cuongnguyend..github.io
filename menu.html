@@ -17,11 +17,13 @@
 </head>
 
 <body>
-    <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
+    <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out"
+        data-abc="true"></a>
     <!-- form sign up -->
     <div id="sign_up" class="sign_up">
         <form action="" class="signup_content animate" id="sign_up" onsubmit="return SignUp();">
-            <span class="close" title="close input form" onclick="document.getElementById('sign_up').style.display = 'none'">&times;</span>
+            <span class="close" title="close input form"
+                onclick="document.getElementById('sign_up').style.display = 'none'">&times;</span>
             <h3 style="text-align: center; padding: 10px 0;">Sign Up</h3>
             <div class="UserName">
                 <strong>
@@ -42,11 +44,13 @@
                 <p id="check_re_pass" style="color: orangered; font: 13px; display: none;"></p>
                 <input type="password" placeholder="Enter password again" id="Confirm_password" required>
             </div>
-            <p style="padding-bottom: 20px;"><input type="checkbox" checked="checked" style="font-size: 20px;">Remember me
+            <p style="padding-bottom: 20px;"><input type="checkbox" checked="checked" style="font-size: 20px;">Remember
+                me
             </p>
             <div class="clearfix">
                 <a href="">Do not have an account</a>
-                <button type="button" class="cancel" onclick="document.getElementById('sign_up').style.display = 'none'">Cancel</button>
+                <button type="button" class="cancel"
+                    onclick="document.getElementById('sign_up').style.display = 'none'">Cancel</button>
                 <button type="submit" class="sign">Sign Up</button>
             </div>
 
@@ -57,15 +61,16 @@
     <div id="form" class="formm">
         <form action="" class="form-content animate" id="login" onsubmit="return test();">
             <h3 style="text-align: center; color: black;">Login</h3>
-            <span onclick="document.getElementById('form').style.display = 'none'" class="close" title="close input form">&times;</span>
+            <span onclick="document.getElementById('form').style.display = 'none'" class="close"
+                title="close input form">&times;</span>
             <p><strong> User Name:</p></strong>
-                <input type="text" placeholder="Enter User name">
-                <p><strong> Password</strong></p>
-                <input type="password" placeholder="Enter Password">
-                <button type="submit">Login</button>
-                <button type="button"><a href="javascript:void(0)" class="login1 button_form nav-link"
+            <input type="text" placeholder="Enter User name">
+            <p><strong> Password</strong></p>
+            <input type="password" placeholder="Enter Password">
+            <button type="submit">Login</button>
+            <button type="button"><a href="javascript:void(0)" class="login1 button_form nav-link"
                     onclick="document.getElementById('sign_up').style.display = 'block' ,document.getElementById('form').style.display = 'none'">SignUp</a></button>
-                <label>
+            <label>
                 <input type="checkbox" checked="checked" name="remember"> Remember me
             </label>
         </form>
@@ -76,7 +81,8 @@
             <a class="navbar-branch" href="#">
                 <img src="img/logo.png" width="100px">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -85,7 +91,8 @@
                         <a class="nav-link active" href="pureza.html">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Reservations</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                            data-toggle="dropdown">Reservations</a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="#"> Calender</a>
                             <a class="dropdown-item" href="#">Table Scheme</a>
@@ -123,7 +130,8 @@
                         <a class="nav-link" href="#">Contacts</a>
                     </li>
                     <li class="nav-item">
-                        <a href="javascript:void(0)" class="login1 button_form nav-link" onclick="document.getElementById('form').style.display = 'block'">Login </a>
+                        <a href="javascript:void(0)" class="login1 button_form nav-link"
+                            onclick="document.getElementById('form').style.display = 'block'">Login </a>
                     </li>
                     <!-- <li class="nav-item">
                         <a href="javascript:void(0)" class="login1 button_form nav-link" onclick="document.getElementById('sign_up').style.display = 'block'">Sign Up</a>
@@ -151,10 +159,30 @@
         <div class="container">
             <div class="menu_title">
                 <h1>BON APPETTIT</h1>
-                <p>Duis sit amet lacus maximus quam bibendum ultrices. Etiam fermentum id turpis viverra gravida. Phasellus fringilla sapien eu maximus. Pellentesque nibh risus, ultrices sit amet efficitur eu, ut tortor.</p>
+                <p>Duis sit amet lacus maximus quam bibendum ultrices. Etiam fermentum id turpis viverra gravida.
+                    Phasellus fringilla sapien eu maximus. Pellentesque nibh risus, ultrices sit amet efficitur eu, ut
+                    tortor.</p>
             </div>
         </div>
     </div>
-    <button>aaaa</button>
+    <div class="bt_menu container">
+        <div class="row">
+            <div class="col active">
+                <button>BREAKFAST</button>
+            </div>
+            <div class="col">
+                <button>SPECIALS</button>
+            </div>
+            <div class="col">
+                <button>DRINKS</button>
+            </div>
+            <div class="col">
+                <button>DESSERTS</button>
+            </div>
+            <div class="col">
+                <button>SALADS</button>
+            </div>
+        </div>
+    </div>
 
 </body>

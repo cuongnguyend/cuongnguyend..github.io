@@ -76,6 +76,9 @@ header{
 .navbar ul li{
     margin: 0 30px;
 }
+.navbar .nav-item .active{
+    border-bottom: black 2px solid;
+}
 .dropdown-menu{
     background: rgb(49,41,39,0.9);
     border: none;
@@ -215,6 +218,29 @@ header{
 .caption_slide3 div p{
     font-family: myFirstFont;
 }
+
+
+
+/* slide_lineAuto */
+@keyframes example {
+    0% {width:0%;}
+    100% {width:100%;}
+}
+
+.main_line{
+    width: 100%;
+    height: 2px;
+    background: white;
+}
+.slide .line_auto{
+    background: grey;
+    width: 0.1%;
+    height: 3px;
+    animation: example 5s infinite;
+}
+
+/* slide_lineAuto */
+
 
 
 /*slide caption*/
@@ -558,6 +584,7 @@ input[type=text], input[type=password]{
     width: 100%;
     background-repeat: no-repeat;
     text-align: center;
+    background-attachment: fixed;
 }
 .sc_parallac img{
     max-width: 100%;
@@ -698,5 +725,33 @@ footer .about_us{
 .menu_page_content .container .menu_title p{
     padding-top: 30px;
     color: #a6a19f;
+}
+.bt_menu {
+    width: 50%;
+    box-sizing: border-box;
+}
+.bt_menu .row{
+    text-align: center;
+}
+.bt_menu .row .col button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px 0;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: 400;
+}
+.bt_menu .row .col{
+    margin: 0 20px;
+}
+.bt_menu .row .active{
+    border: green 1.5px solid;
+}
+.bt_menu .row .col:hover{
+    border: green 1.5px solid;
+}
+.bt_menu .row .col:hover button{
+    color: green;
 }
 /* page_menu */
