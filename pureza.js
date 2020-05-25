@@ -76,3 +76,23 @@ $(document).ready(function() {
 
 // sticky navbar
 
+
+
+// tablink in_menupage
+
+function tab(event,type_menu) {
+var i, x;
+  x = $(".tabcontent");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  var tablink = $(".tablink");
+  for (i = 0; i < tablink.length; i++) {
+    tablink[i].className = tablink[i].className.replace(" active", " ");
+  }
+  document.getElementById(type_menu).style.display = "block";
+  event.currentTarget.className += " active";
+}
+
+// tablink in_menupage
+

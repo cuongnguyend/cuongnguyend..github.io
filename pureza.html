@@ -13,6 +13,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <link href="pureza.css" rel="stylesheet" type="text/css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title></title>
 </head>
 
@@ -125,7 +126,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Shop</a>
+                        <a class="nav-link" href="shop.html">Shop</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contacts</a>
@@ -199,7 +200,8 @@
             </div>
         </div>
     </div>
-    <div class="reservation">
+
+    <div class="reservation" data-aos="fade-up">
         <div class="container">
             <h2>WELCOME TO OUR COFFE HOUSE</h2>
             <p>From a cultural standpoint, coffeehouses largely serve as centers of social interaction: the coffeehouse
@@ -210,7 +212,7 @@
     </div>
 
     <!-- experience -->
-    <div class="experience">
+    <div class="experience" data-aos="fade-up">
         <!-- <img src="img/pngtree-coffee-hot-drink-afternoon-tea-banner-background-image_181987.jpg"> -->
         <div class="contain">
             <!-- <img src="img/slider_2_el_2.png" alt=""> -->
@@ -226,7 +228,7 @@
     </div>
     <!-- experience -->
 
-    <div class="coffee_menu">
+    <div class="coffee_menu" data-aos="fade-up">
         <div class="container">
             <h2>COFFEE MENU</h2>
             <p>“I’m looking to nature for my inspiration. Letting the natural produce speak. There’s so much out there,
@@ -234,7 +236,7 @@
             <button type="button" class="btn btn-outline-success"><a href="#">VIEW FULL MENU</a></button>
         </div>
     </div>
-    <div class="container-fluid menu_view">
+    <div class="container-fluid menu_view" data-aos="fade-up">
         <div class="row">
             <div class="col-md">
                 <a href="#"><img src="img/services_1.png" alt="">
@@ -281,7 +283,7 @@
             </div>
         </div>
     </div>
-    <div class="slide2">
+    <div class="slide2" >
         <div id="slides" class="carousel slide" data-ride="carousel">
             <ul class="carousel-indicators">
                 <li data-target="#slides" data-slide-to="0" class="active"></li>
@@ -334,10 +336,10 @@
             </div>
         </div>
     </div>
-    <div class="sc_parallac">
-        <img src="img/coffee-pot.png" alt="">
+    <div class="sc_parallac" >
+        <img src="img/coffee-pot.png" alt="" data-aos="fade-up">
     </div>
-    <div class="container read_more">
+    <div class="container read_more" data-aos="fade-up">
         <h2>MOST READ ARTICLES</h2>
         <div class="row">
             <div class="col-md">
@@ -390,7 +392,7 @@
             </div>
             <div class="social">
                 <div class="social_item"><a href="#"><i class="fab fa-twitter"></i></a></div>
-                <div class="social_item"><a href="#"><i class="fab fa-facebook"></i></a></div>
+                <div class="social_item"><a href="https://www.facebook.com/cuong209?ref=bookmarks"><i class="fab fa-facebook"></i></a></div>
                 <div class="social_item"><a href="#"><i class="fab fa-google-plus-g"></i></a></div>
                 <div class="social_item"><a href="#"><i class="fab fa-instagram"></i></a></div>
             </div>
@@ -405,5 +407,8 @@
     </footer>
 </body>
 <script type="text/javascript" src="pureza.js"></script>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </html>
