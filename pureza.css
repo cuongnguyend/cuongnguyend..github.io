@@ -4,6 +4,10 @@ body {
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .sticky {
     position: fixed;
     top: 0;
@@ -19,7 +23,7 @@ body {
     right: 39px;
     z-index: 98;
     padding: 21px;
-    background-color: gray;
+    background-color: rgb(19, 202, 117);
 }
 
 .js .cd-top--fade-out {
