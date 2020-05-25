@@ -20,6 +20,10 @@ $('.slide').mousemove(function(event) {
     $('.carousel-caption').css('margin-top', moveY + 'px');
 });
 
+// if ($(".caption_slide1").css("marginTop") !='0px' ){
+//   $('.line_auto').css('animation')=('none');
+// }
+// else $('.line_auto').css('animation')=('example 5s infinite');
 // slide
 // backtop
 $(document).ready(function() {
@@ -72,4 +76,21 @@ $(document).ready(function() {
     });
 });
 
-// scroll reservation
+
+
+// tablink in_menupage
+
+function tab(event, type_menu) {
+    var i, x, tablinks;
+    x = $(".tabcontent");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    tablink = $(".tablink");
+    for (i = 0; i < tablink.length; i++) {
+        tablink[i].className = tablink[i].className.replace(" active", " ");
+    }
+    document.getElementById(type_menu).style.display = "block";
+    event.currentTarget.className += " active";
+}
+// tablink in_menupage
